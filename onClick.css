@@ -1,0 +1,61 @@
+.pageStructure{
+    position: absolute;
+    left: 10%;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+/*--------------------------TOP BAR--------------------------*/
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 0px 15px; 
+}
+
+.petSearch{
+    width: 60%;
+}
+
+.loginButton{
+
+}
+
+/*--------------------------MAIN CONTENT--------------------------*/
+.pageBody{
+    display:flex;
+    flex: column;
+    align-items:start;
+    justify-content: space-between;
+}
+
+.petList{
+    margin-top: 15px;
+    width: 65%;
+}
+
+.petItem{
+    border: 2px solid black;
+    padding: 10px;
+
+    margin-bottom: 15px;
+}
+
+.likeButton{
+
+}
+
+/*--------------------------SIDE CONTENT--------------------------*/
+.pageDef{
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.addDefButton{
+
+}
